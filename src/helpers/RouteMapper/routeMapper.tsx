@@ -10,6 +10,9 @@ import { ReactElement } from "react";
 import { NavigationProvider } from "../NavigationProvider/navigationProvider";
 import { DataCombinedType, DataAltType } from "./types";
 
+/**
+ * RouteMapper function component
+ */
 export const routeMapper = ({
   path,
   component,
