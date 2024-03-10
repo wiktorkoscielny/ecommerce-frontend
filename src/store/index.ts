@@ -1,4 +1,12 @@
+/*
+ * @category  React-Ecommerce
+ * @author    Wiktor Koscielny | <wiktorkoscielny@gmail.com>
+ */
+
 import { configureStore, ThunkAction, Action } from '@reduxjs/toolkit';
+import { InitialState } from "./types"; 
+
+const initialState: InitialState = {};
 
 export const store = configureStore({
   reducer: {},

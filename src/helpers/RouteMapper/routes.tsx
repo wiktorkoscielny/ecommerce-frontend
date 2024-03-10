@@ -10,4 +10,6 @@ import { DataAltType } from "./types";
 /**
  * RoutesData function
  */
-export const RoutesData: DataAltType[] = [];
+export const RoutesData: DataAltType[] = [
+    path: "/", component: <Homepage />, isWithNavigation: false
+];
